@@ -1,0 +1,49 @@
+/* Color names from https://colours.neilorangepeel.com/ */
+/* Border-box fix by Paul Irish
+-------------------------------------------------*/
+/* This makes it so that padding and border to not change the element size (i.e. size is dictated entirely by set height and width) */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* Global styles
+-------------------------------------------------*/
+.flex-container {
+    display: flex;
+}
+/* Header Styles
+-------------------------------------------------*/
+header {
+    background-color: firebrick;
+    color: aliceblue;
+    font-family: 'Courgette', cursive;
+    height: 100px;
+    text-align: center;
+    /* Keep the header always at the top of the page */
+    position: sticky;
+    top: 0;
+}
+.logo {
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    background-color: orangered;
+    color: inherit;
+    height: inherit;
+    font-family: 'Courgette', cursive;
+}
+.logo > p {
+    height: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo > img {
+    height: 60%;
+}
+.slogan {
+    margin: auto;
+}

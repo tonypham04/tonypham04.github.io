@@ -13,6 +13,9 @@ html {
 .flex-container {
     display: flex;
 }
+a {
+    color: papayawhip;
+}
 /* Header Styles
 -------------------------------------------------*/
 header {
@@ -46,4 +49,27 @@ header {
 }
 .slogan {
     margin: auto;
+}
+
+/* Footer Styles
+-------------------------------------------------*/
+footer {
+    background-color: firebrick;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+}
+footer > address {
+    flex-direction: column;
+    color: aliceblue;
+}
+footer > address > p {
+    font-family: 'Courgette', cursive;
+    padding: 5px;
+}
+footer > address > div {
+    padding: 5px;
 }

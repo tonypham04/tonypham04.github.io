@@ -10,9 +10,6 @@ html {
 }
 /* Global styles
 -------------------------------------------------*/
-body {
-    font-family: 'Roboto', sans-serif;
-}
 .flex-container {
     display: flex;
 }
@@ -22,12 +19,22 @@ a {
 .content-container {
     justify-content: center;
 }
+section {
+    padding: 10px;
+    margin: 10px;
+}
+section:nth-child(odd) {
+    background-color: lemonchiffon;
+}
+section:nth-child(even) {
+    background-color: lightyellow;
+}
 h1, h2, h3 {
     font-family: 'Courgette', cursive;
+    margin: 10px;
 }
 h1 {
     font-size: 36px;
-    margin: 10px;
 }
 /* Header Styles
 -------------------------------------------------*/

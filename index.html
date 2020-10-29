@@ -10,6 +10,7 @@
     <title>Phamtastic Pizza</title>
 </head>
 <body>
+    <div class="content-container flex-container">
     <header class="flex-container">
         <div class="flex-container logo">
             <p>Phamtastic Pizza</p>
@@ -19,7 +20,6 @@
             <p>At Home Programming Student Baking</p>
         </div>
     </header>
-    <div class="content-container flex-container">
     <main>
         <article>
             <section id="How-to-make-Phamtastic-Pizza">
@@ -76,7 +76,7 @@
                 </figcaption>
             </figure>
             <h3>Ingredients</h3>
-            <p>A snapshot of some of the ingredients you will need is provided in <a href="#Figure-2">Figure 2</a>.</p>
+            <p>A snapshot of some of the ingredients you will need is provided in <a class="figure-link" href="#Figure-2">Figure 2</a>.</p>
             <ul>
                 <li>Yeast</li>
                 <li>Warm Water (defined as you can dip your finger in it and not get burned)</li>
@@ -88,7 +88,7 @@
                 <li>A block of cheese</li>
                 <li>Toppings</li>
             </ul>
-            <figure>
+            <figure id="Figure-2">
                 <img src="images/mobile/ingredients.png" alt="Photo showing some of the ingredients you will need to make a Phamtastic Pizza">
                 <figcaption>
                     Figure 2. A subset of the ingredients you will need to make a Phamtasitc Pizza.
@@ -96,7 +96,36 @@
                 </figcaption>
             </figure>
             </section>
-            <h2>Preparing the Yeast</h2>
+            <section id="Preparing-The-Yeast">
+            <h2>Preparing The Yeast</h2>
+            <aside>This will take approximately 30 minutes.</aside>
+            <p>Boil some tap water in a kettle over a stove set on high.
+               Once the water has come to a boil, pour it into a small rice bowl about 1/4 of the way full as shown in <a class="figure-link" href="#Figure-3">Figure 3</a>.
+            </p>
+            <figure id="Figure-3">
+                <img src="images/mobile/water-amount.png" alt="Photo showing approximately how much water should be in the small rice bowl">
+                <figcaption>Figure 3. Visual of the amount of water you should be adding to the small rice bowl.</figcaption>
+            </figure>
+            <p>Leave the water to cool down for about 8 minutes.
+               Add one teaspoon of sugar into the small rice bowl and stir.
+            </p>
+            <aside>The sugar will act as food for the yeast.</aside>
+            <p>Wait for 1 minute and then add 1 &frac12; teaspoons of yeast into the small rice bowl.
+               Stir the small rice bowl until the yeast dissolves as shown in <a class="figure-link" href="#Figure-4">Figure 4</a>.
+            </p>
+            <aside>It is normal to observe bubbles and some of the yeast clustering together.</aside>
+            <p>Cover the small rice bowl with a small plate and wait between 10 and 15 minutes.
+               Remove the small plate from the top of the small rice bowl and you should notice the yeast has risen as shown in <a class="figure-link" href="#Figure-5">Figure 5</a>.
+            </p>
+            <figure id="Figure-4">
+                <img src="images/mobile/dissolved-yeast.png" alt="Photo showing the yeast dissolved inside the small rice bowl">
+                <figcaption>Figure 4. Visual of the contents of the small rice bowl after mixing in 1 &frac12; teaspoons of yeast.</figcaption>
+            </figure>
+            <figure id="Figure-5">
+                <img src="images/mobile/risen-yeast.png" alt="Photo showing the risen yeast in the small rice bowl">
+                <figcaption>Figure 5. Visual of what the yeast looks like after being left to rise for 15 minutes.</figcaption>
+            </figure>
+            </section>
             <h2>Making the Dough</h2>
             <h2>Kneading and the Dough Bounces Back</h2>
             <h2>Rising of the Dough</h2>
@@ -106,7 +135,6 @@
             <h2>Closing Remarks</h2>
         </article>
     </main>
-    </div>
     <footer class="flex-container">
         <address class="flex-container">
             <p>Learn more about the author Tony Pham:</p>
@@ -120,5 +148,6 @@
             </div>
         </address>
     </footer>
+    </div>
 </body>
 </html>

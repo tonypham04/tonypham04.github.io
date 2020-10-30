@@ -10,9 +10,6 @@ html {
 }
 /* Global styles
 -------------------------------------------------*/
-body {
-    background-image: url("../images/phamtastic-pizza-background.png");
-}
 .flex-container {
     display: flex;
 }
@@ -132,4 +129,15 @@ footer > address > p {
 }
 footer > address > div {
     padding: 5px;
+}
+
+/* Media Queries
+-------------------------------------------------*/
+@media (min-width: 1440px) {
+    body {
+        background-image: url("../images/phamtastic-pizza-background.png");
+    }
+    figure {
+        text-align: center;
+    }
 }

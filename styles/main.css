@@ -59,6 +59,10 @@ figure {
 .figure-link {
     color: darkred;
 }
+video {
+    width: 75%;
+    margin: 10px;
+}
 /* Header Styles
 -------------------------------------------------*/
 header {

@@ -140,4 +140,11 @@ footer > address > div {
     figure {
         text-align: center;
     }
+    h1 {
+        text-align: center;
+        font-size: 48px;
+    }
+    .author-info {
+        justify-content: center;
+    }
 }

@@ -60,11 +60,14 @@ figure {
     color: darkred;
 }
 video {
-    width: 75%;
+    width: 85%;
     margin: 10px;
 }
 span {
     font-style: italic;
+}
+section p, aside {
+    margin-bottom: 10px;
 }
 /* Header Styles
 -------------------------------------------------*/

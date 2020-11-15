@@ -17,5 +17,11 @@ The next steps in this project will involve applying responsive images to the pr
 This will likely be achieved using the "srcset" attribute in a future update.
 
 ## History of Changes
+### Sunday, November 15, 2020
+* Fixes related to grammar and quantities used
+* Add more metadata markup regarding the author, title and webpage description
+* Styling updates for instruction text and video sizes across mobile, tablet and desktop screens
+* Add self-drawn favicon for the webpage tab
+
 ### Thursday, October 29, 2020
 * The Phamtastic Pizza webpage is hosted online using GitHub Pages
